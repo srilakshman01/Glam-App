@@ -1,0 +1,32 @@
+.items{
+    width: 300px;
+    padding-bottom: 60px;
+    padding-left: 10px;
+}
+.items p{
+    margin: 6px 0px;
+}
+.price{
+    display: flex;
+    gap: 20px;
+}
+.newprice{
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+}
+.oldprice{
+    color: rgb(107, 6, 6);
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: line-through;
+}
+.items:hover{
+    transform: scale(1.05);
+    transition: 0.6s;
+    cursor: pointer;
+}
+.jimg{
+    height: 300px;
+    width: 270px;
+}

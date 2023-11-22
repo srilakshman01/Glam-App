@@ -1,0 +1,34 @@
+.pro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    height: 90vh;
+}
+.pro h1{
+    padding-top: 80px;
+    color: black;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.pro h2{
+    padding-top: 80px;
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.pro hr{
+    width: 100px;
+    height: 6px;
+    border-radius: 10px;
+    background: black;
+}
+.proitem{
+    margin-top: 60px;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding-left: 30px;
+}
